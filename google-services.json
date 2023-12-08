@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "764925513604",
+    "project_id": "smarthome-5efe4",
+    "storage_bucket": "smarthome-5efe4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764925513604:android:c14ce9c35c70aaab4317d1",
+        "android_client_info": {
+          "package_name": "com.duyshin.smarthomeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA00-X1OMmumGHuw-JPj5UxlVWM1ffaQ48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

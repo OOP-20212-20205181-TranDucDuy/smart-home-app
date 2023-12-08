@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "smart-home-app",
+    "slug": "smart-home-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/smart-home.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/smart-home.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/smart-home.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.duyshin.smarthomeapp",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/smart-home.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a4181ca8-b0e4-462c-86b6-a7155ae59a63"
+      }
+    }
+  }
+}
