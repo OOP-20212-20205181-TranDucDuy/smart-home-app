@@ -17,7 +17,6 @@ import RoomDetail from './RoomDetail';
 import UserManagement from './UserManagement';
 const functionIcons = [
   require('../assets/smart-home.png'),
-  require('../assets/device.png'),
   require('../assets/account-details.png'),
   // Add more function icons as needed
 ];
@@ -30,8 +29,7 @@ const HomeDetail = ({navigation}) => {
   const getScreen = (chosenScreen) => {
     switch(chosenScreen) {
       case 0 : return <RoomDetail homeId={id}/>
-      case 1 : return <RoomDetail homeId={id}/>
-      case 2 : return <UserManagement homeId={id}/>
+      case 1 : return <UserManagement homeId={id}/>
     }
   }
   return (

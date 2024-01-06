@@ -334,7 +334,7 @@ const Welcome = ({navigation}) => {
                     </TouchableOpacity>
                   </View>
                 ))}
-                {err !== '' ? (<View><Text style = {{color : red}}>{err}</Text></View>):(
+                {err !== '' ? (<View><Text style = {{color : "red"}}>{err}</Text></View>):(
                 <TouchableOpacity onPress={addRoom} style={styles.closeButton}>
                   <Text>Add Room</Text>
                 </TouchableOpacity>)}
